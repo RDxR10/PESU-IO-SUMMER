@@ -70,7 +70,4 @@ else:
         elif str(decision)=='N':
             print("Okay")
         else:
-            print("Y/N?")
-        
-    
-        
+            print("Y/N?")         
