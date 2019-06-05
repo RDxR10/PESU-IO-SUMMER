@@ -2,12 +2,12 @@
 """
 Created on Wed Jun  5 22:01:13 2019
 
-@author: Rishi
+@author: RDxR10
 """
 
 #
 #import bisect
-#l = input("Enter a list of numbers").split(" ")
+#l = input("Enter the elements").split(" ")
 #l_vals=[]
 #for _ in l:
 #    l_vals.append(int(_))
@@ -41,7 +41,7 @@ def binarySearch(list, x):
     return -1
 
 
-l = input("Enter a list of numbers").split(" ")
+l = input("Enter the elements").split(" ")
 
 l_vals=[]
 for _ in l:
@@ -52,9 +52,9 @@ x = int(input("Enter the element you want to search"))
 result = binarySearch(l_vals,x) 
 if(l_vals == sorted(l_vals)):
     if result != -1: 
-        print("Element is present at index",result) 
+        print("The required element is present at index",result) 
     else: 
-        print("Element is not present in list")
+        print("The required element is not present in your list")
 else:
     print("Elements aren't sorted in list. Do you want them to be sorted?(Y/N)")
     decision=None
