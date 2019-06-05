@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  6 03:01:59 2019
 
-@author: Rishi
+@author: RDxR10
 """
 N= int(input("Enter Any Integer: "))
 S= 0
