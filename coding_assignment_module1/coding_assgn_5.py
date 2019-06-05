@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  6 03:24:02 2019
 
-@author: Rishi
+@author: RDxR10
 """
 
 def is_number(s):
